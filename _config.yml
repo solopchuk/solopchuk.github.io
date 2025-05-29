@@ -1,6 +1,7 @@
 # from https://github.com/gwgundersen/blog-theme/blob/master/_config.yml
 highlighter: rouge
 environment: prod
+show_author: false
 plugins:
   - jekyll-scholar
   - jekyll-sitemap
