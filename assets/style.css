@@ -1,18 +1,18 @@
 body {
   font-family: sans-serif;
-  background: #fafbfc;
+  background: #fff;       /* White background for the whole page */
   color: #222;
   margin: 0;
   min-height: 100vh;
 }
 
 main {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 24px;
-  background: #fff;
-  border-radius: 5px;
-  box-shadow: 0 1px 8px rgba(0,0,0,0.03);
+  max-width: 800px;       /* Wider max width (adjust as you like) */
+  margin: 40px auto;      /* Center main vertically with margin */
+  padding: 0 24px;        /* Some padding left/right for readability */
+  background: none;       /* Remove the white box background */
+  border-radius: 0;       /* No rounded corners */
+  box-shadow: none;       /* No shadow at all */
 }
 
 h1, h2, h3, h4 {
@@ -28,13 +28,6 @@ ul.post-list {
 ul.post-list li {
   margin-bottom: 2.5em;
   text-align: center;
-}
-
-.post-list .date,
-.post-container .date {
-  color: #bbb;
-  font-size: 0.95em;
-  font-style: italic;
 }
 
 a {
