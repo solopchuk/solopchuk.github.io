@@ -6,6 +6,6 @@ plugins:
   - jekyll-scholar
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-katex
+  # - jekyll-katex
 #katex:
 #  js_path: "assets"  # Path used to search for katex.min.js
